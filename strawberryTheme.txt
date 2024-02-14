@@ -1,3 +1,4 @@
+@-moz-document url-prefix("https://klavogonki.ru/") {
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600&display=swap');
 
 #speedpanel #speed-label {
@@ -7,9 +8,9 @@
 #speedpanel #errors-label {
     font-family: monospace;
 }
-#players > div.player.you.ng-scope > table > tbody > tr > td.name > div > table > tbody > tr> td > div > a{
-    font-weight:700 !important;
-    font-size:15px;
+#players > div.player.you.ng-scope > table > tbody > tr > td.name > div > table > tbody > tr > td > div > a {
+    font-weight: 700 !important;
+    font-size: 15px;
 }
 a,
 #players > div,
@@ -19,10 +20,10 @@ a,
 #discussing_forum > div > span,
 #profile-index > div.col-xs-3 > div > div > div {
     font-family: 'Arimo', sans-serif;
-    font-weight:400;
+    font-weight: 400;
 }
-body > div.fade.modal2.dlg-dailytask-window.in > div > div > div.modal2-body.ng-scope > div.task-description > div.require > div > ul > li:nth-child(1) > app:race-description > span:nth-child(1){
-    color:black !important;
+body > div.fade.modal2.dlg-dailytask-window.in > div > div > div.modal2-body.ng-scope > div.task-description > div.require > div > ul > li:nth-child(1) > app:race-description > span:nth-child(1) {
+    color: black !important;
 }
 #discussing_today > div > span,
 #discussing_recent > div > span,
@@ -30,14 +31,13 @@ body > div.fade.modal2.dlg-dailytask-window.in > div > div > div.modal2-body.ng-
 #discussing_forum > div > span {
     transition: 0.2s;
 }
-#players > div.player.ng-scope > div.rating > div> ins.place{
+#players > div.player.ng-scope > div.rating > div > ins.place {
     font-family: 'Arimo', sans-serif;
-    font-weight:600 !important;
-    
+    font-weight: 600 !important;
 }
-div > div.rating > div.stats{
+div > div.rating > div.stats {
     font-family: 'Arimo', sans-serif;
-    font-weight:500 !important;
+    font-weight: 500 !important;
 }
 
 :root {
@@ -45,24 +45,24 @@ div > div.rating > div.stats{
     --col2: url('https://i.imgur.com/HFI0crF.png') !important;
     --col3: url('https://i.imgur.com/GdgmEC3.png') !important;
     --col33: url('https://i.imgur.com/EdyBJIK.png') !important;
-    --progress:url('https://i.imgur.com/BQk5adD.png') !important;
+    --progress: url('https://i.imgur.com/BQk5adD.png') !important;
     --loading: url('https://media.tenor.com/On7kvXhzml4AAAAi/loading-gif.gif') !important;
     --typefocus-color: rgba(255, 255, 255, 0.6);
     --font-color: rgb(229, 60, 88);
     --font-underline: underline;
     --light-blue: #f59496;
-    --main-blue: rgb(240,126,130);
+    --main-blue: rgb(240, 126, 130);
     --skyblue: #fcb2b4;
-    --dark-blue:#da676a;
-    --yellow:rgb(252, 210, 63);
+    --dark-blue: #da676a;
+    --yellow: rgb(252, 210, 63);
     --transparent-blue: rgba(255, 255, 255, 0.372);
     /* --kg-img: url('https://i.imgur.com/pXl829k.png') !important; */
     /* --kg-img: url('https://i.imgur.com/shutXMn.png') !important; */
     /* --kg-img: url('https://i.imgur.com/3QTlhAT.png') !important; */
     --kg-img: url('https://i.imgur.com/sUZPyuq.png') !important;
-    --kg-pedia:url('https://i.imgur.com/D5SYPzs.png') !important;
-    --adddic:url('https://i.imgur.com/6yMyQHO.png') !important;
---car1: url('https://i.imgur.com/47egGx1.png') !important;
+    --kg-pedia: url('https://i.imgur.com/D5SYPzs.png') !important;
+    --adddic: url('https://i.imgur.com/6yMyQHO.png') !important;
+    --car1: url('https://i.imgur.com/47egGx1.png') !important;
     --car2: url('https://i.imgur.com/w6dpXyO.png') !important;
     --car3: url('https://i.imgur.com/IqeDCZ1.png') !important;
     --car4: url('https://i.imgur.com/66ErCsl.png') !important;
@@ -112,13 +112,13 @@ div > div.rating > div.stats{
     --car1018: url('https://i.imgur.com/Nnu7CYx.png') !important;
     --car1011: url('https://i.imgur.com/80g94wq.png') !important;
     --car1023: url('https://i.imgur.com/AkjwQHn.png') !important;
-    --rating-stars:url('https://i.imgur.com/ExGynQf.png') !important;
+    --rating-stars: url('https://i.imgur.com/ExGynQf.png') !important;
     --trophy1: url('https://i.imgur.com/gI8GIGA.png') !important;
-/*     --speedpanel: url('https://i.imgur.com/Jya0t0f.png') !important; */
-/*     --speedpanel: url('https://i.imgur.com/fzFUPcA.png') !important; */
+    /*     --speedpanel: url('https://i.imgur.com/Jya0t0f.png') !important; */
+    /*     --speedpanel: url('https://i.imgur.com/fzFUPcA.png') !important; */
     --speedpanel: url('https://i.imgur.com/lAUTeSt.png') !important;
     --rating-back: transparent url('https://i.imgur.com/4LV6Zhs.png') no-repeat 0% 0% !important;
-/*     --speedpanel: url('https://i.imgur.com/caow9BM.png') !important; */
+    /*     --speedpanel: url('https://i.imgur.com/caow9BM.png') !important; */
     --slider: url('https://i.imgur.com/QW58h1Z.gif') !important;
     --handle: url('https://i.imgur.com/kBbyLis.gif') !important;
     --enter-normal: url('https://i.imgur.com/kYDP9vQ.png') !important;
@@ -136,48 +136,56 @@ div > div.rating > div.stats{
     --pale: rgba(255, 255, 255, .23);
     --letterSpacing: 0 !important;
     --fontWeight: 400 !important;
-    --creategame:url('https://i.imgur.com/EcvgWlN.png') !important;
-    --icons:url('https://i.imgur.com/J1MaYHF.png') !important;
-    
+    --creategame: url('https://i.imgur.com/EcvgWlN.png') !important;
+    --icons: url('https://i.imgur.com/J1MaYHF.png') !important;
 }
-#gameloading .gameloading-content
-{
+#gameloading .gameloading-content {
     background: transparent var(--loading) no-repeat left;
     background-size: 50px 50px;
 }
-.player .rating .rating_gained{
-background: var(--rating-back);
-color:var(--font-color) !important;
+.player .rating .rating_gained {
+    background: var(--rating-back);
+    color: var(--font-color) !important;
 }
 body,
 div,
-html{
-      scrollbar-color: var(--font-color) var(--skyblue);
-  scrollbar-width: thin;
+html {
+    scrollbar-color: var(--font-color) var(--skyblue);
+    scrollbar-width: thin;
 }
 .rating_stars {
-    background-image:var(--rating-stars);
+    background-image: var(--rating-stars);
 }
-.slider{
-    background:var(--slider) !important;
+.slider {
+    background: var(--slider) !important;
 }
-.slider .handle{
-    background:var(--handle) !important;
+.slider .handle {
+    background: var(--handle) !important;
 }
-.rang1, a.rang1, a.rang1:visited{
-    color:white !important;
+.rang1,
+a.rang1,
+a.rang1:visited {
+    color: white !important;
 }
-.rang2, a.rang2, a.rang2:visited{
-    color:#00dfd6 !important;
+.rang2,
+a.rang2,
+a.rang2:visited {
+    color: #00dfd6 !important;
 }
-.rang3, a.rang3, a.rang3:visited{
-    color:rgb(76, 255, 108) !important;
+.rang3,
+a.rang3,
+a.rang3:visited {
+    color: rgb(76, 255, 108) !important;
 }
-.rang4, a.rang4, a.rang4:visited{
-    color:rgb(230, 255, 0) !important;
+.rang4,
+a.rang4,
+a.rang4:visited {
+    color: rgb(230, 255, 0) !important;
 }
-.rang5, a.rang5, a.rang5:visited{
-    color:rgb(255, 203, 84) !important;
+.rang5,
+a.rang5,
+a.rang5:visited {
+    color: rgb(255, 203, 84) !important;
 }
 /* Машинки */
 div[class*=car-base].car1 {
@@ -192,7 +200,7 @@ div[class*=car-base].car1 {
     display: none;
 }
 #status a {
-    border-bottom:none;
+    border-bottom: none;
 }
 .profile-car .shop.tuning .car .imgcont {
     background: var(--main-blue) !important;
@@ -415,15 +423,18 @@ div[class*=car-base].car1011 {
 div[class*=car-base].car1023 {
     background-image: var(--car1023);
 }
+.progress60 {}
+.progress60_dark,
+.progress60_dark i,
+.progress60 i,
 .progress60 {
-}
-.progress60_dark, .progress60_dark i,.progress60 i,.progress60{
-    background-image:var(--progress) !important;
+    background-image: var(--progress) !important;
 }
 .profile-root .sidebar .profile-nav li a .icon-icomoon,
 .profile-root .sidebar .profile-nav li.active a .icon-icomoon,
 .profile-root .journal .post .content,
-.profile-root .journal .write .edit .preview-change, .profile-root .journal .write .preview .preview-change,
+.profile-root .journal .write .edit .preview-change,
+.profile-root .journal .write .preview .preview-change,
 #profile-prefs .prefs-block,
 #profile-block .note,
 #profile-block.vocview-block .user-title .title .rating-block,
@@ -434,12 +445,13 @@ div[class*=car-base].car1023 {
 .chat .messages .time,
 .profile-edit-bio form .markdown-note,
 .form-control,
-.profile-messages .messages-content .messages-respondent .dialog .dialog-write .edit .preview-change, .profile-messages .messages-content .messages-respondent .dialog .dialog-write .preview .preview-change,
-#content > div > div > div > div.content-col > table > tbody > tr> td.title > span:nth-child(3),
+.profile-messages .messages-content .messages-respondent .dialog .dialog-write .edit .preview-change,
+.profile-messages .messages-content .messages-respondent .dialog .dialog-write .preview .preview-change,
+#content > div > div > div > div.content-col > table > tbody > tr > td.title > span:nth-child(3),
 #invite > div > div > div > div > div > p.none.ng-scope,
 #typeblock #bookinfo,
 #toplist table th,
-#toplist > div.content-col > table > tbody > tr> td.highlight > span,
+#toplist > div.content-col > table > tbody > tr > td.highlight > span,
 #gamelist .custominfo .competition .cost,
 .voc_desc,
 .profile-root .options .options-block h5,
@@ -472,8 +484,9 @@ body > div.fade.modal2.dlg-dailytask-window.in > div > div > div.modal2-body.ng-
 #posts-list .post .title,
 #about table#regular .bordleft,
 #about table#regular th,
-.dlg-send-user-message .message-text .edit .preview-change, .dlg-send-user-message .message-text .preview .preview-change,
-.profile-achieves .options .btn-group .btn .toggle-text b ,
+.dlg-send-user-message .message-text .edit .preview-change,
+.dlg-send-user-message .message-text .preview .preview-change,
+.profile-achieves .options .btn-group .btn .toggle-text b,
 #totalGamesCounter .value,
 .profile-stats .profile-stats-details .charts .graph-controls div.btn-group .dropdown-toggle b,
 #create dd .params .note,
@@ -485,75 +498,76 @@ body > div.fade.modal2.dlg-dailytask-window.in > div > div > div.modal2-body.ng-
 .quotetop,
 .profile-edit-bio form .controls .btn,
 .profile-messages .messages-content .messages-respondent .dialog .dialog-write .markdown-note,
-.userpanel .user-block .user-dropdown .dropmenu .col1 .note ,
-.dlg-send-user-message .markdown-note{
-    color:var(--font-color) !important;
+.userpanel .user-block .user-dropdown .dropmenu .col1 .note,
+.dlg-send-user-message .markdown-note {
+    color: var(--font-color) !important;
 }
 .profile-root .profile-hidden,
-.fuel-root .fuel-content{
+.fuel-root .fuel-content {
     color: var(--font-color);
     background: var(--light-blue);
 }
 .gametypes div,
-#add-topic dt  {
-    color:white !important;
+#add-topic dt {
+    color: white !important;
 }
 #totalGamesCounter .value {
-    justify-content:center;
-    text-align:center;
-    border-top:3px var(--main-blue) !important;
-    border-bottom:3px var(--main-blue) !important;
+    justify-content: center;
+    text-align: center;
+    border-top: 3px var(--main-blue) !important;
+    border-bottom: 3px var(--main-blue) !important;
 }
-.profile-achieves .list .group .item .achieve .achieve-content{
-    width:670px;
+.profile-achieves .list .group .item .achieve .achieve-content {
+    width: 670px;
 }
 .profile-root .profile-content .btn-group .dropdown-toggle .caret {
     border-top: 4px solid #fff !important;
 }
 .modal2-footer {
-    border:none;
-     background: linear-gradient(180deg, rgba(245, 148, 150, 1) 60%, rgba(240, 126, 130, 1) 96%, rgba(240, 126, 130, 1) 100%);
+    border: none;
+    background: linear-gradient(180deg, rgba(245, 148, 150, 1) 60%, rgba(240, 126, 130, 1) 96%, rgba(240, 126, 130, 1) 100%);
 }
-div.modal2-header.ng-scope > button{
+div.modal2-header.ng-scope > button {
     background-color: white !important;
-    transition:0.2s;
+    transition: 0.2s;
 }
-.modal2-dialog span{
-    color:#850000 !important;
-} 
+.modal2-dialog span {
+    color: #850000 !important;
+}
 .achieve .achieve-content .progress .progress-bar,
-.dlg-dailytask-window .modal2-dialog .dailytask-progress .progress-striped .progress-bar{
-background-color:rgb(255, 242, 129);
-    color:var(--font-color);
+.dlg-dailytask-window .modal2-dialog .dailytask-progress .progress-striped .progress-bar {
+    background-color: rgb(255, 242, 129);
+    color: var(--font-color);
 }
 .scores-table .daily-scores,
-.userpanel #userpanel-scores-container{
-    color:white;
+.userpanel #userpanel-scores-container {
+    color: white;
 }
 .profile-car .price .bonuses,
 .profile-root .sidebar .profile-nav li a .badge {
-background-color:white;
-    color:var(--font-color);
+    background-color: white;
+    color: var(--font-color);
 }
-input[type="checkbox"]{
-     accent-color:#810000 !important;
+input[type="checkbox"] {
+    accent-color: #810000 !important;
 }
-#create .buttons input.create_game{
-    background-image:var(--creategame)}
-#play-overall #players .player .newrecord a{
-    color:white !important;
-    border-bottom:2px solid white;
+#create .buttons input.create_game {
+    background-image: var(--creategame)
+}
+#play-overall #players .player .newrecord a {
+    color: white !important;
+    border-bottom: 2px solid white;
 }
 .userpanel .user-block .user-dropdown .dropmenu .col1 a.btn,
 .btn-primary,
-.btn80{
-    border:1px solid var(--main-blue) !important;
-    background:var(--skyblue) !important;
-    transition:0.2s;
+.btn80 {
+    border: 1px solid var(--main-blue) !important;
+    background: var(--skyblue) !important;
+    transition: 0.2s;
 }
 .userpanel .user-block .user-dropdown .dropmenu .col1 a.btn:hover,
-.btn-primary:hover{
-    filter:brightness(1.1) !important;
+.btn-primary:hover {
+    filter: brightness(1.1) !important;
 }
 .fuel-dlg-pay .amount {
     padding: 10px;
@@ -564,78 +578,79 @@ input[type="checkbox"]{
     border-radius: 5px;
     box-shadow: 0px 10px 25px -20px #000000;
 }
-.profile-root .sidebar .profile-nav > li.active > a, .profile-root .sidebar .profile-nav > li.active > a:hover, .profile-root .sidebar .profile-nav > li.active > a:focus,
-body > div.fade.modal2.in > div > div > div > div.modal2-body > ul > li> div > input{
-    background:var(--skyblue) !important;
+.profile-root .sidebar .profile-nav > li.active > a,
+.profile-root .sidebar .profile-nav > li.active > a:hover,
+.profile-root .sidebar .profile-nav > li.active > a:focus,
+body > div.fade.modal2.in > div > div > div > div.modal2-body > ul > li > div > input {
+    background: var(--skyblue) !important;
 }
-.btn80_gray{
-    background:var(--skyblue) !important;
+.btn80_gray {
+    background: var(--skyblue) !important;
 }
-.btn80_green{
-    background:var(--yellow) !important;
+.btn80_green {
+    background: var(--yellow) !important;
 }
-.btn80{
+.btn80 {
     color: var(--font-color) !important;
-    text-shadow:none;
+    text-shadow: none;
 }
-.btn80:hover{
-    filter:brightness(1.05);
+.btn80:hover {
+    filter: brightness(1.05);
 }
-#profile-block.vocview-block .user-title .btn_fav, #profile-block.vocview-block .user-title .btn_play{
-    background-image:var(--adddic) !important;
+#profile-block.vocview-block .user-title .btn_fav,
+#profile-block.vocview-block .user-title .btn_play {
+    background-image: var(--adddic) !important;
 }
 button,
-#profile-prefs > form:nth-child(2) > div > div.col-xs-4 > div.avatar > div.avatar-controls > div{
+#profile-prefs > form:nth-child(2) > div > div.col-xs-4 > div.avatar > div.avatar-controls > div {
     background-color: var(--skyblue) !important;
     color: var(--font-color) !important;
 }
 .col-xs-4 {
-        width: 32.5%;
+    width: 32.5%;
 }
-.dlg-smilies-insert{
- background-color:#ffc0cba1;   
+.dlg-smilies-insert {
+    background-color: #ffc0cba1;
 }
-#host_start{
-    color:rgb(255, 242, 129)  !important;
-    font-weight:1000;
+#host_start {
+    color: rgb(255, 242, 129) !important;
+    font-weight: 1000;
 }
 
-#content > div > div > div > div > div:nth-child(4) > div.sidebar.ng-scope > ul> li>a,
+#content > div > div > div > div > div:nth-child(4) > div.sidebar.ng-scope > ul > li > a,
 .profile-edit-bio form,
 #premium_abra label {
-    background:var(--light-blue) !important;
-    font-weight:1000 !important;
+    background: var(--light-blue) !important;
+    font-weight: 1000 !important;
 }
-#content > div > div > div > div > div:nth-child(4) > div.sidebar.ng-scope > ul> li>a:hover,
-.profile-achieves .list .group .item .achieve .achieve-content .levels:hover{
-    background:var(--skyblue) !important;
+#content > div > div > div > div > div:nth-child(4) > div.sidebar.ng-scope > ul > li > a:hover,
+.profile-achieves .list .group .item .achieve .achieve-content .levels:hover {
+    background: var(--skyblue) !important;
 }
 
 .profile-achieves .list .group .more-achieves {
-    background:var(--light-blue) !important;
-    color:var(--font-color) !important;
-    transition:0.2s;
+    background: var(--light-blue) !important;
+    color: var(--font-color) !important;
+    transition: 0.2s;
 }
 .profile-achieves .list .group .more-achieves:hover {
-    background:var(--skyblue) !important;
-    
+    background: var(--skyblue) !important;
 }
 .profile-messages .messages-content .messages-contacts .contacts-content .contact:hover,
 .profile-messages .messages-content .messages-respondent .dialog .dialog-content .scrollable .message.unread,
-.profile-messages .messages-content .messages-contacts .contacts-content .contact .content .message.unread{
-    background:var(--skyblue) !important;
+.profile-messages .messages-content .messages-contacts .contacts-content .contact .content .message.unread {
+    background: var(--skyblue) !important;
 }
 
 .ownbanner-back,
 .gradient-top,
-.gradient-bottom{
+.gradient-bottom {
     display: none;
 }
 
 /* --light-blue:rgb(226,226,226);
   --main-blue:rgb(212,212,212);
   --skyblue:rgb(249, 249, 249); */
-
 #car1 > tbody > tr > td > .imgcont > .img .car1 {
     background: var(--main-blue) !important;
 }
@@ -648,9 +663,8 @@ button,
     background: var(--main-blue) !important;
 }
 
-tbody > tr > td> div > div > div.car-tuning.car-tuning13_.img{
-/*     background: var(--main-blue) !important; */
-    
+tbody > tr > td > div > div > div.car-tuning.car-tuning13_.img {
+    /*     background: var(--main-blue) !important; */
 }
 #head > div.minwidth_holyhack > div {
     max-height: 100px !important;
@@ -660,18 +674,20 @@ tbody > tr > td> div > div > div.car-tuning.car-tuning13_.img{
     background: none !important;
 }
 
-div#gamelist .remain span, 
+div#gamelist .remain span,
 div#gamelist .gray_timer span {
     background-image: var(--clock);
 }
-#profile-index > div> div > div > div> a{
-    color:#4c7dc7 !important;
-    
+#profile-index > div > div > div > div > a {
+    color: #4c7dc7 !important;
 }
 a,
-h3, h4, h5, h6{
+h3,
+h4,
+h5,
+h6 {
     transition: 0.2s !important;
-    color:var(--font-color) !important;
+    color: var(--font-color) !important;
 }
 .popup-box .t,
 .popup-box .r,
@@ -680,240 +696,228 @@ h3, h4, h5, h6{
 .popup-box .tr,
 .popup-box .tl,
 .popup-box .br,
-.popup-box .bl{
-display:none;
-    
-    
+.popup-box .bl {
+    display: none;
 }
-#mw-content-text table, #mw-content-text td,
+#mw-content-text table,
+#mw-content-text td,
 .fuel-root .thankyou {
-    background-color:var(--light-blue) !important;
+    background-color: var(--light-blue) !important;
 }
 #mw-content-text,
 #mw-content-text th {
-    background:var(--light-blue) !important;
-    color:var(--font-color) !important;
-    
+    background: var(--light-blue) !important;
+    color: var(--font-color) !important;
 }
-#popconfirm > div.content1 > div > table > tbody > tr:nth-child(2) > td.c{
-    background-color:var(--light-blue) !important;
-    border-radius:5px !important;
-    padding:20px;
+#popconfirm > div.content1 > div > table > tbody > tr:nth-child(2) > td.c {
+    background-color: var(--light-blue) !important;
+    border-radius: 5px !important;
+    padding: 20px;
 }
 .popup_profile th {
-    color:var(--font-color) !important;
-    box-shadow:none !important;
-    
+    color: var(--font-color) !important;
+    box-shadow: none !important;
 }
-.popup-box table{
-/*     box-shadow:var(--boxshadow); */
-    border-radius:5px !important;
+.popup-box table {
+    /*     box-shadow:var(--boxshadow); */
+    border-radius: 5px !important;
 }
 .msg {
-    background-color:var(--skyblue);
-    color:var(--font-color);
-    box-shadow:var(--boxshadow)
-    
+    background-color: var(--skyblue);
+    color: var(--font-color);
+    box-shadow: var(--boxshadow)
 }
-.profile-root .journal .write .edit, .profile-root .journal .write .preview,
-.profile-messages .messages-content .messages-respondent .dialog .dialog-write{
-    background-color:var(--light-blue) !important;
+.profile-root .journal .write .edit,
+.profile-root .journal .write .preview,
+.profile-messages .messages-content .messages-respondent .dialog .dialog-write {
+    background-color: var(--light-blue) !important;
 }
 #play-right #invite #friends-list,
 #content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div > div.charts > div.charts-contents.ng-scope > div > div > div > div > div.chart-table.ng-isolate-scope > div > div > table > tbody > tr.google-visualization-table-tr-even > td,
 .google-visualization-table-tr-even,
 .discussing .comments-cnt,
-.gametypes tr.active{
-    border:1px solid var(--skyblue) !important;
-    background-color:var(--skyblue) !important;
-    
+.gametypes tr.active {
+    border: 1px solid var(--skyblue) !important;
+    background-color: var(--skyblue) !important;
 }
-#content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div > div.top-stats.row > div:nth-child(2) > div:nth-child(2) > div> a{
-    color:var(--font-color) !important;
+#content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div > div.top-stats.row > div:nth-child(2) > div:nth-child(2) > div > a {
+    color: var(--font-color) !important;
 }
 #content_KE .list .item.past,
-.profile-stats .profile-stats-details .charts{
-        background-color:var(--light-blue) !important;
-    
+.profile-stats .profile-stats-details .charts {
+    background-color: var(--light-blue) !important;
 }
-.userpanel #pin.active{
-    background-color:transparent;
-    border:1px solid var(--skyblue) !important;
+.userpanel #pin.active {
+    background-color: transparent;
+    border: 1px solid var(--skyblue) !important;
 }
-.profile-messages .messages-content .messages-respondent .dialog .dialog-write .edit, .profile-messages .messages-content .messages-respondent .dialog .dialog-write .preview{
-    background:transparent !important;
+.profile-messages .messages-content .messages-respondent .dialog .dialog-write .edit,
+.profile-messages .messages-content .messages-respondent .dialog .dialog-write .preview {
+    background: transparent !important;
 }
 .profile-root .journal .write,
 .profile-root .scroll-to-top,
-.dlg-profile-vocs .vocs td:last-child, .dlg-profile-vocs .vocs th:last-child,
-.dropdown-menu{
-        background-color:var(--light-blue) !important;
-
+.dlg-profile-vocs .vocs td:last-child,
+.dlg-profile-vocs .vocs th:last-child,
+.dropdown-menu {
+    background-color: var(--light-blue) !important;
 }
 .userpanel .user-block .user-dropdown .name {
-    transition:0.2s !important;
+    transition: 0.2s !important;
 }
 .profile-root .profile-header .mini-nav ul li.active,
 .userpanel .user-block .user-dropdown .name:hover,
 .userpanel .user-block .daily-task:hover,
-.dropdown-menu > li > a:hover, 
-body > div.fade.modal2.dlg-dailytask-window.in > div > div > div.modal2-body.ng-scope > div.dailytask-progress.ng-scope > div{
-    background-color:var(--skyblue) !important;
+.dropdown-menu > li > a:hover,
+body > div.fade.modal2.dlg-dailytask-window.in > div > div > div.modal2-body.ng-scope > div.dailytask-progress.ng-scope > div {
+    background-color: var(--skyblue) !important;
 }
-.userpanel .user-block .user-dropdown .drop-btn{
-    transition:0.2s;
+.userpanel .user-block .user-dropdown .drop-btn {
+    transition: 0.2s;
 }
-.userpanel .user-block .user-dropdown .drop-btn:hover{
-    background:none;
-    background-color:var(--skyblue) !important;
+.userpanel .user-block .user-dropdown .drop-btn:hover {
+    background: none;
+    background-color: var(--skyblue) !important;
 }
-li>a>div,
-.dlg-dailytask-window .modal2-dialog .task-description .award-description .award-status{
-    color:var(--font-color) !important;
+li > a > div,
+.dlg-dailytask-window .modal2-dialog .task-description .award-description .award-status {
+    color: var(--font-color) !important;
 }
-#profile-block > dl.menu > dd > ul > li.active{
-    color:white !important;
+#profile-block > dl.menu > dd > ul > li.active {
+    color: white !important;
 }
 
-li{
-    color:var(--font-color) !important;
-    background-color:var(--lightblue) !important;
-    
+li {
+    color: var(--font-color) !important;
+    background-color: var(--lightblue) !important;
 }
 dd > input,
 #profile-block > div.user-content > dl:nth-child(2) > dd,
-.fuel-root .fuel-content .right-block .goal-list .goal{
-    background:var(--skyblue) !important;
+.fuel-root .fuel-content .right-block .goal-list .goal {
+    background: var(--skyblue) !important;
 }
 .fuel-root .month button .caret {
     border-top-color: var(--font-color);
-    
 }
-table > tbody > tr > td.messages > div > table > tbody > tr > th > form > input{
-    background:var(--skyblue) !important}
-#content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div > div > div.list > div:nth-child(1) > div > bo:include > app:profile-achieve > div{
-        background-color:var(--light-blue) !important;
-    
+table > tbody > tr > td.messages > div > table > tbody > tr > th > form > input {
+    background: var(--skyblue) !important
+}
+#content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div > div > div.list > div:nth-child(1) > div > bo:include > app:profile-achieve > div {
+    background-color: var(--light-blue) !important;
 }
 .player .rating .place1,
 div#gamelist .regular-competition,
 #about table#regular td.x3,
-table > tbody > tr > td.messages > div > div > div > p> a{
- color: var(--yellow) !important;   
+table > tbody > tr > td.messages > div > div > div > p > a {
+    color: var(--yellow) !important;
 }
-.player .rating .place2{
-    color:white !important;
+.player .rating .place2 {
+    color: white !important;
 }
 .player .rating .place3,
 .profile-edit-bio form .controls .btn,
-body > div.fade.modal2.dlg-dailytask-window.in > div > div > div.modal2-body.ng-scope > div.task-description > div.require > div > ul > li:nth-child(1) > app:race-description > span:nth-child(1){
-    color:var(--font-color) !important;
+body > div.fade.modal2.dlg-dailytask-window.in > div > div > div.modal2-body.ng-scope > div.task-description > div.require > div > ul > li:nth-child(1) > app:race-description > span:nth-child(1) {
+    color: var(--font-color) !important;
 }
-#top_rating > table > tbody > tr> td> a,
-#top_rating > table > tbody > tr> td.date{
-    color:var(--font-color) !important;
+#top_rating > table > tbody > tr > td > a,
+#top_rating > table > tbody > tr > td.date {
+    color: var(--font-color) !important;
 }
 
-div#gamelist .gray_timer{
-    color:red !important;
-    opacity:0.75;
+div#gamelist .gray_timer {
+    color: red !important;
+    opacity: 0.75;
 }
 textarea::placeholder,
 input::placeholder,
-#search_form > div > div > input{
-        color:var(--font-color) !important;
-opacity:0.75;
-    
+#search_form > div > div > input {
+    color: var(--font-color) !important;
+    opacity: 0.75;
 }
- tbody > tr > td.messages > div > div > div > p> span.username{
-    background-color:rgba(255, 255, 255, .69) !important;
+tbody > tr > td.messages > div > div > div > p > span.username {
+    background-color: rgba(255, 255, 255, .69) !important;
 }
 
-#top-popup > div.right > input[type=button]{
+#top-popup > div.right > input[type=button] {
     background-color: #ffffffa6 !important;
 }
-ul.trimenu li.active{
-        background: none;
+ul.trimenu li.active {
+    background: none;
     background-color: rgb(143, 0, 0) !important;
     color: rgb(231, 231, 231);
     padding: 10px;
     border-bottom: 3px solid rgb(255, 119, 0);
 }
 .userpanel #userpanel-bonuses,
-.scores-table .daily-rating{
-    color:var(--skyblue) !important;
-    
+.scores-table .daily-rating {
+    color: var(--skyblue) !important;
 }
-.profile-root .sidebar .profile-nav li.active a .icon-icomoon{
-    color:white !important;
-    
+.profile-root .sidebar .profile-nav li.active a .icon-icomoon {
+    color: white !important;
 }
 .achieve,
-.profile-root .journal .post .content .readmore.fade-top{
-    background:none;
+.profile-root .journal .post .content .readmore.fade-top {
+    background: none;
     background-color: var(--skyblue) !important;
 }
-.achieve .achieve-content .title{
-    text-shadow:none;
+.achieve .achieve-content .title {
+    text-shadow: none;
 }
 .profile-root .btn {
-    background-color:var(--skyblue) !important;
-    color:var(--font-color) !important;
+    background-color: var(--skyblue) !important;
+    color: var(--font-color) !important;
 }
-#stats-block > table > tbody > tr:nth-child(2) > td.rating > a{
-    color:white !important;
+#stats-block > table > tbody > tr:nth-child(2) > td.rating > a {
+    color: white !important;
 }
 .profile-root .journal .write .placeholder,
 .profile-root .journal .comments .more,
 .profile-stats .profile-stats-details .charts .graph-controls div.btn-group .dropdown-toggless,
-.quotemain{
-    border:1px solid var(--skyblue) !important;
-    background-color:var(--skyblue) !important;
-    color:var(--font-color) !important;
-    
+.quotemain {
+    border: 1px solid var(--skyblue) !important;
+    background-color: var(--skyblue) !important;
+    color: var(--font-color) !important;
 }
 #content_KE .list .item.soon,
 .profile-root .journal .write .placeholder,
 #profile-block > div.user-content > dl:nth-child(7) > dd > div > table > tbody > tr.even,
-.form-control{
-    background-color:var(--skyblue) !important;
-    
+.form-control {
+    background-color: var(--skyblue) !important;
 }
 
-#profile-index .stats .content .stats-block .stats-content{
-    background:none;
-    background-color:var(--skyblue) !important;
-    color:var(--font-color) !important;
+#profile-index .stats .content .stats-block .stats-content {
+    background: none;
+    background-color: var(--skyblue) !important;
+    color: var(--font-color) !important;
 }
 .vocview-block .words tr.even td,
 #profile-prefs .prefs-block,
 .profile-stats .profile-stats-overview .recent,
-#content_KE .list .item{
-    background:none;
-    background-color:var(--skyblue) !important;
+#content_KE .list .item {
+    background: none;
+    background-color: var(--skyblue) !important;
 }
-#content_KE > table > tbody > tr> td.title > a.go{
+#content_KE > table > tbody > tr > td.title > a.go {
     background: transparent !important;
-    box-shadow:none !important;
+    box-shadow: none !important;
 }
 #chat-title > table > tbody > tr > td.general.r.active,
 #chat-title > table > tbody > tr > td.general.mostleft.l.active,
 #chat-title > table > tbody > tr > td.general.mostleft.l,
 #chat-title table .mostleft.l,
-#chat-title > table > tbody > tr > td.general.r{
-    border-top-left-radius:12px;
+#chat-title > table > tbody > tr > td.general.r {
+    border-top-left-radius: 12px;
 }
-#chat-title > table > tbody > tr > td.general.c.active
-#chat-title > table > tbody > tr > td.general.c,
-#chat-title > table > tbody > tr > td.general.c{
-    border-top-right-radius:12px;
+#chat-title > table > tbody > tr > td.general.c.active #chat-title > table > tbody > tr > td.general.c,
+#chat-title > table > tbody > tr > td.general.c {
+    border-top-right-radius: 12px;
 }
-table > tbody > tr > td.userlist{
-  background-color:var(--skyblue) !important;  
+table > tbody > tr > td.userlist {
+    background-color: var(--skyblue) !important;
 }
 #chat-title table .active.mostleft.l,
-#chat-title > table > tbody > tr > td.general.mostleft.l{
-    background:var(--deep);
+#chat-title > table > tbody > tr > td.general.mostleft.l {
+    background: var(--deep);
 }
 #chat-title table .r,
 #chat-title table .c,
@@ -922,50 +926,53 @@ table > tbody > tr > td.userlist{
 #chat-title table .active.r,
 #chat-title table .active.l,
 #chat-title table .l,
-#chat-title table .active.c{
-    background:var(--deep);
-        color:white;
+#chat-title table .active.c {
+    background: var(--deep);
+    color: white;
 }
 #chat-title > table > tbody > tr > td.pin,
 #chat-title > table > tbody > tr > td.mostright,
-#chat-title table .height-btn{
-background-image:var(--icons);   
+#chat-title table .height-btn {
+    background-image: var(--icons);
 }
-#chat-title table .active.c{
-    color:var(--yellow);
+#chat-title table .active.c {
+    color: var(--yellow);
 }
 .chat .panel-btn {
-    background-color:var(--light-blue);
-    transition:0.2s;
+    background-color: var(--light-blue);
+    transition: 0.2s;
 }
 .chat .panel-btn:hover,
-.gametypes tr:hover ,
+.gametypes tr:hover,
 .fuel-dlg-pay .bonus.clickable:hover {
-        filter:brightness(1.05);
-    background-color:var(--light-blue);
+    filter: brightness(1.05);
+    background-color: var(--light-blue);
 }
-.userpanel .user-block .user-dropdown .active .name{
-    background-color:var(--skyblue) !important;
+.userpanel .user-block .user-dropdown .active .name {
+    background-color: var(--skyblue) !important;
 }
 .post,
 .profile-journal-post-dlg .journal .comments .post,
 div#gamelist .item td,
-.table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td{
-    border-top:1px solid var(--skyblue) !important;
+.table thead > tr > th,
+.table tbody > tr > th,
+.table tfoot > tr > th,
+.table thead > tr > td,
+.table tbody > tr > td,
+.table tfoot > tr > td {
+    border-top: 1px solid var(--skyblue) !important;
 }
-.profile-root .journal .record-info .game-text{
-    border:3px solid var(--skyblue) !important;
-    
+.profile-root .journal .record-info .game-text {
+    border: 3px solid var(--skyblue) !important;
 }
-.voclist table td{
-    border-bottom:1px solid var(--skyblue) !important;
-    
+.voclist table td {
+    border-bottom: 1px solid var(--skyblue) !important;
 }
-.profile-root .journal .post .content .text blockquote{
-    border-left:4px solid var(--skyblue) !important;
+.profile-root .journal .post .content .text blockquote {
+    border-left: 4px solid var(--skyblue) !important;
 }
 element.style {
-color:black !important;
+    color: black !important;
 }
 .profile-root .journal .record-info .stats .stats-col table tr th,
 .profile-root .options .options-block ul li,
@@ -976,20 +983,20 @@ color:black !important;
 #profile-prefs .prefs-block .additional,
 .profile-root .options .options-block .note,
 #top td.date,
-#newblog .date{
-    color:var(--font-color) !important;
+#newblog .date {
+    color: var(--font-color) !important;
 }
 .on a,
 .profile-root .journal .post .content .author .owner {
-    color:white !important;
+    color: white !important;
 }
-#content_KE > table > tbody > tr.item.ng-scope.ng-animate > td.title > a.go{
-    box-shadow:none !important;
+#content_KE > table > tbody > tr.item.ng-scope.ng-animate > td.title > a.go {
+    box-shadow: none !important;
     background: transparent !important;
 }
-#forums-list .moderators{
-    color:var(--font-color) !important;
-    font-weight:1000;
+#forums-list .moderators {
+    color: var(--font-color) !important;
+    font-weight: 1000;
 }
 
 #head .right .menu a.active {
@@ -1057,7 +1064,7 @@ body > div.fade.modal2.in > div > div,
 #typeblock > div,
 #toplist > div.content-col > table > tbody > tr > th.highlight,
 .google-visualization-table-tr-odd,
-.voclist td.popularity{
+.voclist td.popularity {
     background-color: var(--main-blue) !important;
 }
 #invite > div > div > div > div > div,
@@ -1065,21 +1072,20 @@ body > div.fade.modal2.in > div > div,
 #invite > div > div > div,
 #invite > div > div,
 #invite > div,
-.dlg-send-user-message .message-text .edit, .dlg-send-user-message .message-text .preview{
+.dlg-send-user-message .message-text .edit,
+.dlg-send-user-message .message-text .preview {
     background-color: var(--light-blue) !important;
-    
 }
 #topics-list .item.even td {
-    background:var(--light-blue) !important;
+    background: var(--light-blue) !important;
 }
 #topics-list .item td {
-    background:var(--main-blue)
+    background: var(--main-blue)
 }
 /* .google-visualization-table-tr-even,
 #content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div.profile-stats-overview > div > div > div:nth-child(1) > div.col-xs-4 > div {
     background-color: var(--light-blue) !important;
 } */
-
 #about table.cars td {
     background-color: var(--light-blue) !important;
 }
@@ -1099,29 +1105,28 @@ body > div.fade.modal2.in > div > div,
     background-color: var(--skyblue) !important;
     border-radius: 4px;
 }
-.profile-stats .profile-stats-details .top-stats .counter{
+.profile-stats .profile-stats-details .top-stats .counter {
     background-color: var(--skyblue) !important;
-    border-radius:0;
+    border-radius: 0;
 }
 .profile-messages .messages-content .messages-respondent .dialog .dialog-content .scrollable .message .content .scores .label {
-    background-color:white !important;
-    color:var(--font-color) !important;
+    background-color: white !important;
+    color: var(--font-color) !important;
 }
 .profile-stats .profile-stats-details .top-stats .counter div,
 .gametype-voc,
 #book > tbody > tr > td > div:nth-child(1),
-#posts-list > form > table.list > tbody > tr> td > span.date,
-#posts-list .post-container .text .modified{
-    color:var(--font-color) !important;
+#posts-list > form > table.list > tbody > tr > td > span.date,
+#posts-list .post-container .text .modified {
+    color: var(--font-color) !important;
 }
-.rc-anchor-light{
-    background:black !important;
+.rc-anchor-light {
+    background: black !important;
 }
-.hidemain{
-        color:var(--font-color) !important;
+.hidemain {
+    color: var(--font-color) !important;
     background-color: var(--skyblue) !important;
     border: 1px solid var(--dark-blue);
-
 }
 #content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div.profile-stats-overview > div > div > div:nth-child(1) > div.col-xs-4 > div > ul > li {
     transition: 0.5s;
@@ -1154,14 +1159,13 @@ body > div.fade.modal2.in > div > div,
 #create > dl > dd > div.params > div > div > div > div,
 #create > dl > dd > div.params > div > div > div,
 #create > dl > dd > div.params > div > div,
-#create > dl > dd > div.params > div
-#create > dl > dd > div.params,
+#create > dl > dd > div.params > div #create > dl > dd > div.params,
 #create dd .params,
-#create > dl > dd > div.params > div{
+#create > dl > dd > div.params > div {
     border-radius: 12px;
 }
-#index > div.indexstats-block > div > div > div > div{
-    box-shadow:none !important;
+#index > div.indexstats-block > div > div > div > div {
+    box-shadow: none !important;
     background: transparent !important;
 }
 .recent-game {
@@ -1174,26 +1178,26 @@ body > div.fade.modal2.in > div > div,
 #top > div > div > div,
 #top > div > div,
 #top > div {
-    background:var(--main-blue) !important;
+    background: var(--main-blue) !important;
 }
-.bonuses, a.bonuses {
-    color:var(--skyblue) !important;
+.bonuses,
+a.bonuses {
+    color: var(--skyblue) !important;
 }
-#top_today > table > tbody > tr>*,
-#discussing_recent > ul > li> span.username > a,
-#discussing_recent > ul > li> div > a,
-#discussing_week > ul > li> div > a,
-#discussing_week > ul > li> span.username > a,
-#discussing_today > ul > li> span.username > a,
+#top_today > table > tbody > tr > *,
+#discussing_recent > ul > li > span.username > a,
+#discussing_recent > ul > li > div > a,
+#discussing_week > ul > li > div > a,
+#discussing_week > ul > li > span.username > a,
+#discussing_today > ul > li > span.username > a,
 #discussing_today > ul > li div > a,
-#discussing_forum > ul > li> a.user-link{
-    font-size:14px;
+#discussing_forum > ul > li > a.user-link {
+    font-size: 14px;
 }
-#discussing_today > ul > li> span.date,
-#discussing_recent > ul > li> span.date,
-#discussing_week > ul > li> span.date{
-    font-size:12px;
-    
+#discussing_today > ul > li > span.date,
+#discussing_recent > ul > li > span.date,
+#discussing_week > ul > li > span.date {
+    font-size: 12px;
 }
 #top > div > div > div > div > div {
     background: radial-gradient(circle at 0% 100%, var(--skyblue) 0%, var(--light-blue) 100%) !important;
@@ -1201,7 +1205,7 @@ body > div.fade.modal2.in > div > div,
 
 #live {
     background: radial-gradient(circle at 0% 100%, var(--skyblue) 0%, var(--light-blue) 100%) !important;
-/*     border: 1px solid rgb(238, 238, 238); */
+    /*     border: 1px solid rgb(238, 238, 238); */
     border-radius: 12px;
     min-height: 520px;
     background-color: var(--dark-blue);
@@ -1229,8 +1233,8 @@ body > div.fade.modal2.in > div > div,
 body > div.notification-bar.ng-scope {
     background-color: rgb(255, 166, 149);
 }
-body > div.fade.modal2.dlg-dailytask-window.in > div > div{
-    min-width:660px !important;
+body > div.fade.modal2.dlg-dailytask-window.in > div > div {
+    min-width: 660px !important;
 }
 #index > div.firstrow.colmask.fourcol > div.col2 > div > a.title,
 #index > div.firstrow.colmask.fourcol > div.col3 > div > a.title,
@@ -1302,7 +1306,7 @@ body > div.fade.modal2.dlg-dailytask-window.in > div > div{
 #discussing_today > ul > li > span.username > a,
 #discussing_recent > ul > li > span.username > a,
 #discussing_week > ul > li > span.username > a {
-        color: var(--font-color) !important;
+    color: var(--font-color) !important;
 
     transition: 0.13s;
 }
@@ -1313,7 +1317,7 @@ body > div.fade.modal2.dlg-dailytask-window.in > div > div{
 #discussing_recent > ul > li > span.username > a:before,
 #discussing_week > ul > li > span.username > a:before {
     display: block;
-        color: var(--font-color) !important;
+    color: var(--font-color) !important;
 
     width: 100px;
     height: 17px;
@@ -1360,8 +1364,8 @@ body > div.fade.modal2.dlg-dailytask-window.in > div > div{
 #sw_week,
 #sw_success,
 #discussing_forum > div > a,
-#sw_noerror{
-    padding:10px 5px;
+#sw_noerror {
+    padding: 10px 5px;
     border-radius: 5px;
     transition: 0.2s;
 }
@@ -1375,14 +1379,13 @@ body > div.fade.modal2.dlg-dailytask-window.in > div > div{
     background-color: #f37f8236;
 }
 .switch span,
-.on{
-    padding:13px 5px;
+.on {
+    padding: 13px 5px;
     border-radius: 5px;
     background-color: rgb(170, 0, 0) !important;
-    
 }
-.switch a{
-    padding:10px 5px;
+.switch a {
+    padding: 10px 5px;
 }
 #switch_with_icons,
 #discussing_forum > div,
@@ -1402,7 +1405,7 @@ body > div.fade.modal2.dlg-dailytask-window.in > div > div{
 
 .gameblock,
 .typetext {
-    background-color:#a45053;
+    background-color: #a45053;
 }
 
 #typeblock > div > div > div > div > .rc,
@@ -1412,9 +1415,9 @@ body > div.fade.modal2.dlg-dailytask-window.in > div > div{
 
 
 #players-count-lbl b.l0,
-#RCLGametype{
-background-color:var(--skyblue);
-    color:var(--main-blue);
+#RCLGametype {
+    background-color: var(--skyblue);
+    color: var(--main-blue);
 }
 .rc,
 #status-block,
@@ -1424,12 +1427,11 @@ background-color:var(--skyblue);
     background-color: var(--light-blue);
     box-shadow: var(--boxshadow)
 }
-#topics-list > form > table.list > tbody > tr> td.last-post > a.go{
+#topics-list > form > table.list > tbody > tr > td.last-post > a.go {
     box-shadow: none;
-    
 }
-#topics-list > form > table.list > tbody > tr> td.last-post > a.go{
-background:none;
+#topics-list > form > table.list > tbody > tr > td.last-post > a.go {
+    background: none;
 }
 #content > div > div > div.gamelist-create > div.r.tl > div > div > div > div {
     box-shadow: none;
@@ -1462,7 +1464,7 @@ background:none;
     color: var(--font-color) !important;
     font-size: 25px;
     transition: none !important;
-    font-weight:1000 !important;
+    font-weight: 1000 !important;
 }
 
 
@@ -1482,7 +1484,7 @@ tr {
     color: rgb(138, 0, 0) !important;
 }
 .profile-stats .profile-stats-details .top-stats .counter .value {
-    background-color:white;
+    background-color: white;
 }
 #totalGamesCounter .title,
 #totalGamesCounter > div.value,
@@ -1577,7 +1579,7 @@ body > div.fade.modal2.in > div > div > div > div.modal2-body.ng-scope.ng-bindin
 #profile-block > div.right-col > div > div,
 #profile-block > div.right-col > div,
 #profile-block > div.right-col,
-#profile-block > div.right-col > div > div > div > div > div{
+#profile-block > div.right-col > div > div > div > div > div {
     border-radius: 12px !important;
 }
 
@@ -1652,10 +1654,10 @@ body > div.fade.modal2.in > div > div > div > div.modal2-body.ng-scope.ng-bindin
 .profile-messages .messages-content .messages-contacts .contacts-content .contact div.actions button .caret,
 .profile-messages .messages-content .messages-respondent .dialog .dialog-content .scrollable .message div.actions button .caret,
 .profile-stats .profile-stats-details h3 div.actions .btn-group button .caret {
-        border-top: 5.6px solid white !important;
+    border-top: 5.6px solid white !important;
 }
 .profile-root .profile-header div.actions .btn-group button .caret {
-        border-top: 8.399999999999999px solid white !important;
+    border-top: 8.399999999999999px solid white !important;
 }
 #gamelist-active {
     border-top: 17px dotted var(--light-blue) !important;
@@ -1709,21 +1711,21 @@ body > div.fade.modal2.in > div > div > div > div.modal2-body.ng-scope.ng-bindin
 .post {
     background: var(--main-blue) !important;
 }
-#chat-general > table > tbody > tr > td.messages > div > div > ins{
-    color:var(--font-color);
+#chat-general > table > tbody > tr > td.messages > div > div > ins {
+    color: var(--font-color);
 }
 #recent-games li > a:hover {
     background-color: var(--skyblue) !important;
 }
-#content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div > div > div > div.col-xs-3{
-    margin:0 !important;
+#content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div > div > div > div.col-xs-3 {
+    margin: 0 !important;
 }
-#content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div > div > div > div.col-xs-9{
-    max-width:520px;
+#content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div > div > div > div.col-xs-9 {
+    max-width: 520px;
 }
-.friends-content .row > .friends-feed .ng-scope >div{
-    display:flex !important;
-    flex-wrap:nowrap !important;
+.friends-content .row > .friends-feed .ng-scope > div {
+    display: flex !important;
+    flex-wrap: nowrap !important;
 }
 img {
     border-radius: 0 !important;
@@ -1748,18 +1750,14 @@ img {
     padding: 0 !important;
     margin: 20px 0 0 20px !important;
 }
-#p-logo> a{
-    
-}
-#p-logo > a{
-       background-image: var(--kg-pedia) !important;
+#p-logo > a {}
+#p-logo > a {
+    background-image: var(--kg-pedia) !important;
     background-size: 138px 111px;
-    
 }
-#p-logo > a{
-}
-#p-logo{
-       background-image: var(--main-blue) !important;
+#p-logo > a {}
+#p-logo {
+    background-image: var(--main-blue) !important;
     background-size: 12px !important;
     margin-bottom: 0;
     animation-name: logo;
@@ -1808,31 +1806,30 @@ img {
     border-radius: 6px;
 }
 .userpanel {
-     background: linear-gradient(180deg, rgba(243, 127, 130, 1) 0%, rgba(236, 88, 92, 1) 100%);
+    background: linear-gradient(180deg, rgba(243, 127, 130, 1) 0%, rgba(236, 88, 92, 1) 100%);
 }
 
-#content > div > div > div > div > div.profile-header{
-    background: linear-gradient(90deg, #f37f82 0%, #f37f82 23%, #ec585c,#ec585c 100%) !important;
+#content > div > div > div > div > div.profile-header {
+    background: linear-gradient(90deg, #f37f82 0%, #f37f82 23%, #ec585c, #ec585c 100%) !important;
     border-radius: 5px;
     box-shadow: var(--boxshadow);
 }
 .profile-root .online,
 .profile-car .price .scores {
-    filter:brightness(1.2);
-    background-color:var(--skyblue) !important;
-    color:var(--font-color) !important;
+    filter: brightness(1.2);
+    background-color: var(--skyblue) !important;
+    color: var(--font-color) !important;
 }
-.censored{
-    color:var(--yellow)!important;
+.censored {
+    color: var(--yellow)!important;
 }
 .profile-messages .messages-content .messages-respondent .dialog .dialog-content .scrollable .typing {
-color:var(--font-color) !important;
+    color: var(--font-color) !important;
 }
-#top-popup{
+#top-popup {
     background: rgb(255, 242, 129) !important;
-    
 }
-body > div.notification-bar.ng-scope{
+body > div.notification-bar.ng-scope {
     background-color: white !important;
 }
 #profile-index > div.col-xs-9 > div.bio.ng-scope > div > div {
@@ -1857,7 +1854,7 @@ body > div.notification-bar.ng-scope{
     margin: 7px 0 !important;
 }
 #profile-index .stats .content .stats-block .title {
-    color:white !important;
+    color: white !important;
 }
 
 #content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div.my-car.me > div.car.ng-isolate-scope > div > div.car-tuning,
@@ -1886,7 +1883,6 @@ button {
     border-radius: 3px;
     border: 1px solid var(--main-blue) !important;
     padding: 3px !important;
-    
 }
 
 
@@ -1968,12 +1964,12 @@ select,
     background-color: rgba(0, 0, 0, 0.15) !important;
 }
 .profile-car .my-car {
-    box-shadow:none;
+    box-shadow: none;
     background: var(--light-blue);
 }
 .profile-car .my-car .car {
-    box-shadow:none;
-    border:2px dotted var(--skyblue);
+    box-shadow: none;
+    border: 2px dotted var(--skyblue);
 }
 .messages-contacts,
 .dialog {
@@ -1985,7 +1981,7 @@ select,
 }
 #content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div > div > div > div {
     padding-left: 33px;
-/*     margin: auto 10px auto 20px; */
+    /*     margin: auto 10px auto 20px; */
 }
 #content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div > div > div > .car-tuning {
     padding-left: 0px;
@@ -2039,8 +2035,8 @@ body > div.userpanel.logged.pinned > div.user-block > table > tbody > tr > td:nt
 }
 
 #content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div > div > div > div.contact.ng-scope.unread {
-    background-color:var(--skyblue) !important;
-    z-index:1000 !important;
+    background-color: var(--skyblue) !important;
+    z-index: 1000 !important;
     animation-name: unread;
     animation-iteration-count: infinite;
     animation-duration: 1.5s;
@@ -2088,8 +2084,8 @@ body > div.userpanel.logged.pinned > div.user-block > table > tbody > tr > td:nt
 }
 
 div.post.ng-scope.post-hidden {
-   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.25) 65%, rgba(255, 255, 255, 0.5) 100%) !important;
-    border:1px solid #ffffff7d;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.25) 65%, rgba(255, 255, 255, 0.5) 100%) !important;
+    border: 1px solid #ffffff7d;
 }
 
 .stats {
@@ -2145,7 +2141,7 @@ input[type=button],
 
 #inputtext.highlight_error {
     background: white !important;
-/*     N.B. */
+    /*     N.B. */
     transition: 0 !important;
 
     font-weight: 400;
@@ -2256,12 +2252,12 @@ body > div.modal2-backdrop.fade.in {
 }
 
 #toplist > div.left-col > ul > li.active {
-    transform:translateX(21px);
+    transform: translateX(21px);
     text-align: center;
 }
-#toplist ul.mode li>a,
+#toplist ul.mode li > a,
 .login-block {
-    color:white !important;
+    color: white !important;
 }
 #toplist ul.mode li.active span {
     background: none !important;
@@ -2271,11 +2267,10 @@ body > div.modal2-backdrop.fade.in {
 #toplist > div.left-col > ul > li.active > span {
     color: white !important;
 }
-div.left-col{
-}
-div.left-col>ul>li{
-    border-left:3px solid var(--skyblue);
-    padding-left:3px;
+div.left-col {}
+div.left-col > ul > li {
+    border-left: 3px solid var(--skyblue);
+    padding-left: 3px;
 }
 #toplist > div.left-col > ul > li.active,
 #content > div > div > div > div.left-col > ul > li.active {
@@ -2308,15 +2303,15 @@ div.left-col>ul>li{
 
 .profile-root .profile-content .nav-top li a {
     background-color: rgba(255, 255, 255, 0.1);
-/*     color: #650000 !important; */
+    /*     color: #650000 !important; */
     text-shadow: 1px 2px 3px rgb(145, 145, 145);
     font-weight: 1000;
 }
 .profile-root .profile-content .nav-top li.active a {
-    color:#ffe1e1 !important;
+    color: #ffe1e1 !important;
 }
 .profile-root .profile-content .nav-top li a {
-    color:#ffb2b2 !important;
+    color: #ffb2b2 !important;
 }
 #forums-list > table > tbody > tr.header {
     margin: 5px !important;
@@ -2451,7 +2446,7 @@ div#content {
 #mw-content-text > center > table > tbody > tr > td,
 #mw-content-text > center > table,
 blockquote,
-#mw-normal-catlinks{
+#mw-normal-catlinks {
     background-color: var(--light-blue) !important;
 }
 .popup-box .c {
@@ -2463,26 +2458,27 @@ blockquote,
 #ca-edit > span > a,
 #ca-history > span > a,
 #p-namespaces > ul,
-#ca-viewsource > span > a{
-    background-color:var(--light-blue);
-/*     padding-top: 11px !important; */
+#ca-viewsource > span > a {
+    background-color: var(--light-blue);
+    /*     padding-top: 11px !important; */
     transition: 0.5s;
 }
-.messages, .messages-content{
-    border:none;
+.messages,
+.messages-content {
+    border: none;
 }
 #players-count-lbl b.l6,
 #players-count-lbl b.l5,
 #players-count-lbl b.l4,
 #players-count-lbl b.l3,
 #players-count-lbl b.l2,
-#players-count-lbl > b{
-    background-color:var(--yellow) !important;
-    color:var(--font-color);
+#players-count-lbl > b {
+    background-color: var(--yellow) !important;
+    color: var(--font-color);
 }
 div#content,
-#mw-content-text > table> tbody > tr > td{
-    border:1px solid var(--skyblue) !important;
+#mw-content-text > table > tbody > tr > td {
+    border: 1px solid var(--skyblue) !important;
 }
 #searchInput {
     background-color: var(--light-blue) !important;
@@ -2512,24 +2508,24 @@ div#content,
 }
 #beforefocus,
 #afterfocus,
-    #typefocus{
-        font-weight:1000 !important;
-    }
-    
+#typefocus {
+    font-weight: 1000 !important;
+}
+
 
 #afterfocus {
     cursor: none;
 }
 /* ---------------------------------sashavirtual variable ---------------------------------*/
-#typetext.line .highlight{
-    font-weight:400;
+#typetext.line .highlight {
+    font-weight: 400;
 }
-#complexity-calc-inner>div:nth-child(1) {
-/*     opacity: 0; */
+#complexity-calc-inner > div:nth-child(1) {
+    /*     opacity: 0; */
     cursor: default;
 }
 
-#complexity-calc-inner>div:nth-child(1):hover {
+#complexity-calc-inner > div:nth-child(1):hover {
     opacity: 1;
 }
 
@@ -2552,7 +2548,6 @@ div.vectorTabs ul li {
 .error {
     background: rgb(252, 210, 63) !important;
     transition: 0 !important;
-
 }
 
 #inputtext.error {
@@ -2560,20 +2555,19 @@ div.vectorTabs ul li {
     /* color: white !important; */
     /* transition:0.1s; */
     font-weight: 1000;
-    
 }
 
 #typeblock {
-/*     width: 970px !important; */
-/*     min-width: 78vw; */
+    /*     width: 970px !important; */
+    /*     min-width: 78vw; */
 }
 
 
-#inputtextblock>textarea {
-/*     max-width: 703.5px !important; */
-/*     min-width: 25vw !important; */
+#inputtextblock > textarea {
+    /*     max-width: 703.5px !important; */
+    /*     min-width: 25vw !important; */
     background-color: var(--skyblue) !important;
-/*     font-family: arial !important; */
+    /*     font-family: arial !important; */
 }
 
 
@@ -2581,16 +2575,16 @@ div.vectorTabs ul li {
     display: none;
 }
 
-#inputtextblock>input {
-/*     min-width: 76vw; */
+#inputtextblock > input {
+    /*     min-width: 76vw; */
 }
 
-#typetext>img {
+#typetext > img {
     cursor: none !important;
 }
 
 #inputtext {
-/*     width: 920px !important; */
+    /*     width: 920px !important; */
     box-shadow: none !important;
     color: var(--font-color) !important;
     font-size: 25px;
@@ -2598,19 +2592,18 @@ div.vectorTabs ul li {
 }
 
 .gameblock {
-/*     width: 970px !important; */
-/*     min-width: 78vw; */
+    /*     width: 970px !important; */
+    /*     min-width: 78vw; */
 }
 #players,
 #sort-panel,
-#players-count-lbl{
-    z-index:0;
-/*     max-width:750px !important; */
-/*     transform:translateX(10vw); */
+#players-count-lbl {
+    z-index: 0;
+    /*     max-width:750px !important; */
+    /*     transform:translateX(10vw); */
 }
-.people{
-/*     transform:translateX(-15vw); */
-    
+.people {
+    /*     transform:translateX(-15vw); */
 }
 
 #beforefocus {
@@ -2630,4 +2623,4 @@ div.vectorTabs ul li {
     color: var(--font-color) !important;
     cursor: none;
 }
-
+}
